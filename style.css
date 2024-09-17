@@ -1,4 +1,3 @@
-/* Define o estilo inicial da página */
 body {
     margin: 0;
     padding: 0;
@@ -6,11 +5,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black; /* Tela escura por padrão */
+    background-color: black;
     transition: background-color 0.5s ease;
 }
-
-/* Container centralizando o interruptor */
 .container {
     display: flex;
     justify-content: center;
@@ -38,7 +35,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: white; /* Interruptor branco por padrão */
+    background-color: white;
     transition: 0.4s;
     border-radius: 34px;
 }
@@ -50,12 +47,10 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: black; /* Botão escuro */
+    background-color: black;
     transition: 0.4s;
     border-radius: 50%;
 }
-
-/* Estado ativado do interruptor */
 input:checked + .slider {
     background-color: black; /* Interruptor escuro ao ser ativado */
 }
